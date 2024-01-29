@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 .container {
     position: relative;
     width: 100vw;
@@ -78,13 +79,13 @@
     padding: 2%;
     gap: 8px;
     width: 25%;
-    background-color: #0b88dd;
+    background-color: #5adfe9;
     border-radius: 20px;
     font-family: 'inter';
     font-size: 18px;
     line-height: 19px;
     text-align: center;
-    color: white;
+    color: #2276dddc;
     border-color: #2276dddc;
 }
 
@@ -111,7 +112,7 @@
     font-size: 18px;
     line-height: 19px;
     text-align: center;
-    color: #0a3871;
+    color: #2276dddc;
     border-color: #2276dddc;
 }
 
@@ -165,6 +166,14 @@
     line-height: 150%;
     text-align: center;
     color: #495057;
+}
+
+
+.encriptado img {
+    position: absolute;
+    width: 60%;
+    height: 50%;
+    top: 5%;
 }
 
 
@@ -231,6 +240,12 @@
     .mensaje-encriptado {
         width: 100%;
         top: 5%;
+    }
+
+    .encriptado img {
+        top: 0;
+        display: none;
+        visibility: hidden;
     }
 
 }
